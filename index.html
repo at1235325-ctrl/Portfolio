@@ -1,0 +1,835 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Aditya Tripathi - Engineering Student and Full Stack Developer Portfolio">
+    <meta name="keywords" content="Aditya Tripathi, Developer, Portfolio, Full Stack Developer, Engineering Student">
+    <meta name="author" content="Aditya Tripathi">
+
+    <title>Aditya Tripathi | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= PRELOADER ================= -->
+
+<div id="preloader">
+    <div class="loader"></div>
+</div>
+
+
+<!-- ================= ANIMATED BACKGROUND ================= -->
+
+<canvas id="particles"></canvas>
+
+<div class="gradient-bg"></div>
+
+<div class="cursor-glow"></div>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span> My Portfolio <span>/&gt;</span>
+        </a>
+
+        <nav id="navMenu">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <a href="#contact" class="nav-button">
+                Let's Talk
+            </a>
+
+            <button id="menuBtn" class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="availability">
+            <span class="status-dot"></span>
+            Available for opportunities
+        </div>
+
+        <p class="hero-small">
+            Hello, I'm
+        </p>
+
+        <h1>
+            Aditya <span>Tripathi</span>
+        </h1>
+
+        <h2>
+            <span id="typingText"></span>
+            <span class="typing-cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+            I build modern, responsive and scalable digital experiences
+            using clean code, creative design and modern technologies.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary-btn">
+                View My Work
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="https://d1xn1bcogdo8ve.cloudfront.net/978/image.png" class="btn secondary-btn">
+                Resume 
+            </a>
+        
+
+        </div>
+
+        <div class="social-links">
+
+            <a href="https://github.com/" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="mailto:your@email.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- Hero visual -->
+
+    <div class="hero-visual">
+
+        <div class="code-window">
+
+            <div class="window-top">
+
+                <div class="window-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <span class="window-title">
+                    developer.js
+                </span>
+
+            </div>
+
+            <div class="code-content">
+
+<pre>
+<span class="purple">const</span> developer = {
+    <span class="blue">name</span>: <span class="green">"Aditya Tripathi"</span>,
+    <span class="blue">role</span>: <span class="green">"Full Stack Developer"</span>,
+    <span class="blue">skills</span>: [
+        <span class="green">"JavaScript"</span>,
+        <span class="green">"Python"</span>,
+        <span class="green">"React"</span>,
+        <span class="green">"Node.js"</span>
+    ],
+    <span class="blue">passion</span>: <span class="green">"Building things"</span>
+};
+
+<span class="purple">while</span> (learning) {
+    developer.<span class="blue">grow</span>();
+}
+</pre>
+
+            </div>
+
+        </div>
+
+        <div class="floating-card card-one">
+            <i class="fa-solid fa-code"></i>
+            <span>Clean Code</span>
+        </div>
+
+        <div class="floating-card card-two">
+            <i class="fa-solid fa-rocket"></i>
+            <span>Fast & Modern</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <div class="section-heading">
+
+        <span>01.</span>
+        <h2>About Me</h2>
+
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <p>
+                I'm an engineering student passionate about software
+                development, problem solving and building real-world
+                applications.
+            </p>
+
+            <p>
+                I enjoy transforming ideas into interactive digital
+                experiences and continuously improving my skills through
+                projects and experimentation.
+            </p>
+
+            <p>
+                My goal is to become a strong software developer capable
+                of building products that are useful, scalable and
+                visually impressive.
+            </p>
+
+            <div class="about-stats">
+
+                <div>
+                    <strong>10+</strong>
+                    <span>Projects</span>
+                </div>
+
+                <div>
+                    <strong>8+</strong>
+                    <span>Technologies</span>
+                </div>
+
+                <div>
+                    <strong>∞</strong>
+                    <span>Learning</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-card">
+
+    <div 
+        class="profile-circle"
+        style="
+            width: 130px !important;
+            height: 130px !important;
+            min-width: 130px !important;
+            min-height: 130px !important;
+            max-width: 130px !important;
+            max-height: 130px !important;
+            margin: 0 auto 20px !important;
+            border-radius: 50% !important;
+            overflow: hidden !important;
+            display: block !important;
+            position: relative !important;
+            box-sizing: border-box !important;
+            border: 3px solid #8b5cf6 !important;
+        "
+    >
+
+        <img
+            src="myphoto.jpeg"
+            alt="Aditya Tripathi"
+            style="
+                width: 100% !important;
+                height: 100% !important;
+                min-width: 100% !important;
+                min-height: 100% !important;
+                max-width: 100% !important;
+                max-height: 100% !important;
+                object-fit: cover !important;
+                object-position: center 25% !important;
+                display: block !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                box-sizing: border-box !important;
+            "
+        >
+
+    </div>
+
+    <h3>Engineering Student</h3>
+
+    <p>
+        Developer • Problem Solver • Tech Enthusiast
+    </p>
+
+    <div class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        India
+    </div>
+
+</div>
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="section">
+
+    <div class="section-heading">
+
+        <span>02.</span>
+        <h2>My Skills</h2>
+
+    </div>
+
+    <p class="section-subtitle">
+        Technologies and tools I use to turn ideas into working products.
+    </p>
+
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+
+            <h3>Frontend</h3>
+
+            <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-solid fa-server"></i>
+            </div>
+
+            <h3>Backend</h3>
+
+            <div class="skill-tags">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>REST API</span>
+                <span>Python</span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-solid fa-database"></i>
+            </div>
+
+            <h3>Database</h3>
+
+            <div class="skill-tags">
+                <span>MongoDB</span>
+                <span>MySQL</span>
+                <span>Firebase</span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                <i class="fa-brands fa-git-alt"></i>
+            </div>
+
+            <h3>Tools</h3>
+
+            <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Figma</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section">
+
+    <div class="section-heading">
+
+        <span>03.</span>
+        <h2>Featured Projects</h2>
+
+    </div>
+
+    <p class="section-subtitle">
+        Some projects I've worked on.
+    </p>
+
+
+    <div class="projects-grid">
+
+
+        <!-- Project 1 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <div class="folder-icon">
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <h3>Trading Dashboard</h3>
+
+            <p>
+                A modern trading dashboard with interactive market
+                visualization, responsive UI and real-time style data
+                presentation.
+            </p>
+
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>API</span>
+            </div>
+
+        </article>
+
+
+        <!-- Project 2 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <div class="folder-icon">
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <h3>Nutrition Club Website</h3>
+
+            <p>
+                A modern nutrition and wellness platform designed to
+              help use rs explore healthy eating, personalized nutrition
+              plans, wellness tips and lifestyle guidance.
+            </p>
+
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                <span>API</span>
+            </div>
+
+        </article>
+
+
+        <!-- Project 3 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <div class="folder-icon">
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/at1235325-ctrl/Smart-Camera-Project-1" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://github.com/at1235325-ctrl/Smart-Camera-Project-1" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <h3>Smart Camera App</h3>
+
+            <p>
+                A responsive camera-based web application concept with
+                a clean interface and interactive controls.
+            </p>
+
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Web API</span>
+            </div>
+
+        </article>
+
+
+        <!-- Project 4 -->
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <div class="folder-icon">
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <h3>Student Management System</h3>
+
+            <p>
+                A simple management application for storing and
+                managing student information efficiently.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+                <span>MySQL</span>
+                <span>CRUD</span>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="section">
+
+    <div class="section-heading">
+
+        <span>04.</span>
+        <h2>Experience & Learning</h2>
+
+    </div>
+
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    2026 — Present
+                </span>
+
+                <h3>Software Development</h3>
+
+                <h4>Personal Projects</h4>
+
+                <p>
+                    Building frontend and backend projects while
+                    learning modern development technologies.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    2025 — 2026
+                </span>
+
+                <h3>Programming & DSA</h3>
+
+                <h4>Engineering Studies</h4>
+
+                <p>
+                    Learning programming fundamentals, data structures,
+                    algorithms and problem solving.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    Ongoing
+                </span>
+
+                <h3>Continuous Learning</h3>
+
+                <h4>Technology</h4>
+
+                <p>
+                    Exploring full-stack development, APIs, databases,
+                    AI and modern web technologies.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section contact-section">
+
+    <div class="section-heading">
+
+        <span>05.</span>
+        <h2>Let's Connect</h2>
+
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Have a project in mind?</h3>
+
+            <p>
+                I'm always interested in learning, collaborating and
+                building something interesting.
+            </p>
+
+            <a href="mailto:adityatripathi8810@gmail.com" class="email-link">
+                your@email.com
+            </a>
+
+            <div class="contact-socials">
+
+                <a href="https://github.com/at1235325-ctrl" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/aditya-tripathi-0a73b5410" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://www.instagram.com/t_aditya_8?stkn=MWd2ZXNvdmV0cHJybg==" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <form id="contactForm" class="contact-form">
+
+            <div class="input-group">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+            </div>
+
+            <div class="input-group">
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+            </div>
+
+            <div class="input-group">
+
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                >
+
+            </div>
+
+            <div class="input-group">
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+            </div>
+
+            <button type="submit" class="btn primary-btn submit-btn">
+                Send Message
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+            <p id="formMessage"></p>
+
+        </form>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>AT<span>/&gt;</span>
+        </a>
+
+        <p>
+            Designed & Built by Aditya Tripathi
+        </p>
+
+        <p class="copyright">
+            © <span id="year"></span> Aditya Tripathi. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- Back to top -->
+
+<button id="backTop" class="back-top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
