@@ -30,5 +30,50 @@ development and web technologies.
 ## 👨‍💻 Author
 
 **Aditya Tripathi**
+Aditya-Portfolio/
+│
+├── index.html          # Main website structure
+│
+├── style.css           # Website styling and animations
+│
+├── script.js           # JavaScript functionality
+│
+├── myphoto.jpeg        # Profile photo
+│
+├── assets/             # Images and other resources
+│   ├── images/
+│   └── icons/
+│
+└── README.md           # Project documentation
 
 Engineering Student | Web Developer | Tech Enthusiast
+
+index.html
+   │
+   ├── Navigation Bar
+   ├── Home / Hero Section
+   ├── About Section
+   ├── Skills Section
+   ├── Projects Section
+   ├── Experience Section
+   └── Contact Section
+        │
+        ▼
+style.css
+   │
+   ├── Layout & Responsive Design
+   ├── Colors & Typography
+   ├── Cards & Buttons
+   ├── Animated Background
+   ├── Hover Effects
+   └── Mobile Design
+        │
+        ▼
+script.js
+   │
+   ├── Navigation Interaction
+   ├── Smooth Scrolling
+   ├── Animated Background
+   ├── Scroll Animations
+   ├── Project Interactions
+   └── Back-to-Top Button
